@@ -204,7 +204,7 @@ class CreateAccount: UIViewController {
         let formPVC = FormProfile()
         formPVC.formText = finishFormProfile
         var count = 0
-        for (index, key) in finishFormProfile.enumerated() {
+        for (_, key) in finishFormProfile.enumerated() {
             if key == "" {
                 
             } else {

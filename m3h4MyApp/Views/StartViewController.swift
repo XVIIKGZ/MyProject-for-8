@@ -197,7 +197,6 @@ class StartViewController: UIViewController {
     }
     
     @objc func buttonCreate(_ sender: UIButton) {
-        print("open view create account")
         let createAccVC = CreateAccount()
         self.navigationController?.pushViewController(createAccVC, animated: true)
     }
